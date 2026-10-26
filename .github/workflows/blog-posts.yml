@@ -4,7 +4,8 @@ name: Latest blog posts
 # site's RSS feed.
 on:
   schedule:
-    - cron: "0 13 * * *"
+    # Mondays at 13:00 UTC, early morning in Montgomery.
+    - cron: "0 13 * * 1"
   workflow_dispatch:
 
 permissions:

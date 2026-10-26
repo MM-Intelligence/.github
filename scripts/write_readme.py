@@ -3,7 +3,7 @@ README is generated from the lists below. Run from the repo root:
 
   python scripts/write_readme.py --site <path to mm-intelligence>
 
-The blog list between the BLOG-POST-LIST markers is refreshed daily by
+The blog list between the BLOG-POST-LIST markers is refreshed weekly by
 .github/workflows/blog-posts.yml; the posts here only seed it.
 """
 
@@ -11,9 +11,11 @@ import argparse
 import base64
 import re
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+BADGES = ROOT / "profile" / "assets" / "badges"
 
 LINKEDIN_SVG = (
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M20.45 20.45h-3.56'
@@ -29,19 +31,40 @@ def data_logo(svg: str) -> str:
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
 
 
+def legacy_icon(slug: str) -> str:
+    """Icons removed from the current Simple Icons set, taken from v10."""
+    url = f"https://cdn.jsdelivr.net/npm/simple-icons@10/icons/{slug}.svg"
+    svg = urllib.request.urlopen(url).read().decode()
+    return data_logo(svg.replace("<svg ", '<svg fill="white" ', 1))
+
+
 def badge(label: str, color: str, logo: str, style: str = "for-the-badge", logo_color: str = "white") -> str:
-    query = urllib.parse.urlencode({"style": style, "logo": logo, "logoColor": logo_color})
+    params = {"style": style, "logoColor": logo_color}
+    if logo:
+        params["logo"] = logo
+    query = urllib.parse.urlencode(params)
     text = label.replace("-", "--").replace("_", "__").replace(" ", "_")
     return f"https://img.shields.io/badge/{urllib.parse.quote(text)}-{color}?{query}"
 
 
+def saved(url: str, name: str) -> str:
+    """Download a badge into the repo and return its relative path. Linking to
+    shields.io directly breaks for long embedded logos: GitHub's image proxy
+    refuses very long URLs."""
+    slug = "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    (BADGES / f"{slug}.svg").write_bytes(urllib.request.urlopen(req).read())
+    return f"assets/badges/{slug}.svg"
+
+
 def tech(name: str, logo: str) -> str:
-    return f'<img src="{badge(name, "1A1625", logo, style="flat-square")}" alt="{name}"/>'
+    return f'<img src="{saved(badge(name, "1A1625", logo, style="flat-square"), name)}" alt="{name}"/>'
 
 
 def build(site: Path) -> str:
     openai = data_logo((site / "public" / "logos" / "lobe-openai.svg").read_text(encoding="utf-8"))
     linkedin = data_logo(LINKEDIN_SVG)
+    dbt, sqlserver, azure, aws = (legacy_icon(s) for s in ("dbt", "microsoftsqlserver", "microsoftazure", "amazonaws"))
 
     social = [
         ("mmintelligence.ai", "5227FF", "googlechrome", "white", "https://www.mmintelligence.ai"),
@@ -52,7 +75,7 @@ def build(site: Path) -> str:
         ("Email us", "0F0F0F", "gmail", "white", "mailto:info@mmintelligence.ai"),
     ]
     social_html = "\n".join(
-        f'  <a href="{href}"><img src="{badge(label, color, logo, logo_color=lc)}" alt="{label}"/></a>'
+        f'  <a href="{href}"><img src="{saved(badge(label, color, logo, logo_color=lc), "social-" + label)}" alt="{label}"/></a>'
         for label, color, logo, lc, href in social
     )
 
@@ -109,16 +132,20 @@ def build(site: Path) -> str:
         ("AI and LLMs", [("Anthropic", "anthropic"), ("OpenAI", openai), ("Gemini", "googlegemini"),
                          ("LangChain", "langchain"), ("LangGraph", "langgraph"),
                          ("Hugging Face", "huggingface"), ("Ollama", "ollama")]),
-        ("Voice", [("ElevenLabs", "elevenlabs"), ("Deepgram", "deepgram"), ("LiveKit", "livekit")]),
+        ("Voice", [("ElevenLabs", "elevenlabs"), ("Deepgram", "deepgram"), ("Speechmatics", ""),
+                   ("LiveKit", "livekit")]),
         ("Data and ML", [("PyTorch", "pytorch"), ("scikit-learn", "scikitlearn"), ("pandas", "pandas"),
-                         ("NumPy", "numpy"), ("Jupyter", "jupyter"), ("Apache Spark", "apachespark"),
-                         ("Airflow", "apacheairflow"), ("Snowflake", "snowflake")]),
-        ("Languages", [("Python", "python"), ("TypeScript", "typescript"), ("Swift", "swift"), ("Go", "go")]),
-        ("Apps and infra", [("Next.js", "nextdotjs"), ("React", "react"), ("FastAPI", "fastapi"),
-                            ("Node.js", "nodedotjs"), ("PostgreSQL", "postgresql"), ("Supabase", "supabase"),
-                            ("Redis", "redis"), ("Docker", "docker"), ("Google Cloud", "googlecloud"),
-                            ("Vercel", "vercel"), ("Cloudflare", "cloudflare"), ("n8n", "n8n")]),
+                         ("NumPy", "numpy"), ("Jupyter", "jupyter"), ("SQL Server", sqlserver),
+                         ("dbt", dbt), ("Airflow", "apacheairflow")]),
+        ("Languages", [("Python", "python"), ("TypeScript", "typescript"), ("Swift", "swift"),
+                       ("C++", "cplusplus")]),
+        ("Apps and infra", [("Next.js", "nextdotjs"), ("React", "react"), ("Expo", "expo"),
+                            ("Unreal Engine", "unrealengine"), ("FastAPI", "fastapi"), ("Node.js", "nodedotjs"),
+                            ("PostgreSQL", "postgresql"), ("Supabase", "supabase"), ("Redis", "redis"),
+                            ("Docker", "docker"), ("AWS", aws), ("Azure", azure), ("Google Cloud", "googlecloud"),
+                            ("Vercel", "vercel"), ("Cloudflare", "cloudflare")]),
     ]
+
     stack_rows = "\n".join(
         f'<tr><td><b>{group}</b></td><td>\n{" ".join(tech(n, logo) for n, logo in items)}\n</td></tr>'
         for group, items in stack
@@ -154,7 +181,7 @@ def build(site: Path) -> str:
 
 </div>
 
-We're an AI-native software company in **Montgomery, Alabama**, with a registered office in **Manama, Bahrain**. We build voice agents, AI systems, automations, and web and mobile apps for businesses in the US and the Gulf, and we run products of our own.
+We're an AI-native software company in **Montgomery, Alabama**. We build voice agents, AI systems, automations, and web and mobile apps for businesses in the US and the Gulf, and we run products of our own.
 
 ## Products we run
 
@@ -182,7 +209,7 @@ We're an AI-native software company in **Montgomery, Alabama**, with a registere
 {post_list}
 <!-- BLOG-POST-LIST:END -->
 
-<sub>Updated daily from [our blog](https://www.mmintelligence.ai/blog).</sub>
+<sub>Updated weekly from [our blog](https://www.mmintelligence.ai/blog).</sub>
 
 ---
 
@@ -199,6 +226,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--site", type=Path, required=True)
     args = parser.parse_args()
+    BADGES.mkdir(parents=True, exist_ok=True)
+    for old in BADGES.glob("*.svg"):
+        old.unlink()
     (ROOT / "profile" / "README.md").write_text(build(args.site), encoding="utf-8")
 
 

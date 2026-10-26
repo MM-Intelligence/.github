@@ -6,12 +6,12 @@
 </picture>
 
 <p>
-  <a href="https://www.mmintelligence.ai"><img src="https://img.shields.io/badge/mmintelligence.ai-5227FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="mmintelligence.ai"/></a>
-  <a href="https://www.mmintelligence.ai/contact"><img src="https://img.shields.io/badge/Book_a_call-FF9FFC?style=for-the-badge&logo=googlecalendar&logoColor=0F0F0F" alt="Book a call"/></a>
-  <a href="https://www.linkedin.com/company/mm-intelligence/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NnYtNS41N2MwLTEuMzMtLjAyLTMuMDQtMS44NS0zLjA0LTEuODYgMC0yLjE0IDEuNDUtMi4xNCAyLjk1djUuNjZIOS4zNVY5aDMuNDF2MS41NmguMDVjLjQ4LS45IDEuNjQtMS44NSAzLjM3LTEuODUgMy42IDAgNC4yNyAyLjM3IDQuMjcgNS40NnY2LjI4ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMSAxIDAtNC4xMyAyLjA2IDIuMDYgMCAwIDEgMCA0LjEzek03LjEyIDIwLjQ1SDMuNTZWOWgzLjU2djExLjQ1ek0yMi4yMiAwSDEuNzdDLjc5IDAgMCAuNzcgMCAxLjczdjIwLjU0QzAgMjMuMjMuNzkgMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8%2BPC9zdmc%2B&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://www.youtube.com/@mm-intelligence"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-  <a href="https://www.facebook.com/people/MM-Intelligence/61576395188994/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
-  <a href="mailto:info@mmintelligence.ai"><img src="https://img.shields.io/badge/Email_us-0F0F0F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email us"/></a>
+  <a href="https://www.mmintelligence.ai"><img src="assets/badges/social-mmintelligence-ai.svg" alt="mmintelligence.ai"/></a>
+  <a href="https://www.mmintelligence.ai/contact"><img src="assets/badges/social-book-a-call.svg" alt="Book a call"/></a>
+  <a href="https://www.linkedin.com/company/mm-intelligence/"><img src="assets/badges/social-linkedin.svg" alt="LinkedIn"/></a>
+  <a href="https://www.youtube.com/@mm-intelligence"><img src="assets/badges/social-youtube.svg" alt="YouTube"/></a>
+  <a href="https://www.facebook.com/people/MM-Intelligence/61576395188994/"><img src="assets/badges/social-facebook.svg" alt="Facebook"/></a>
+  <a href="mailto:info@mmintelligence.ai"><img src="assets/badges/social-email-us.svg" alt="Email us"/></a>
 </p>
 
 <p>
@@ -23,7 +23,7 @@
 
 </div>
 
-We're an AI-native software company in **Montgomery, Alabama**, with a registered office in **Manama, Bahrain**. We build voice agents, AI systems, automations, and web and mobile apps for businesses in the US and the Gulf, and we run products of our own.
+We're an AI-native software company in **Montgomery, Alabama**. We build voice agents, AI systems, automations, and web and mobile apps for businesses in the US and the Gulf, and we run products of our own.
 
 ## Products we run
 
@@ -69,19 +69,19 @@ Free, private, all-in-one fitness tracker for iPhone.
 
 <table>
 <tr><td><b>AI and LLMs</b></td><td>
-<img src="https://img.shields.io/badge/Anthropic-1A1625?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic"/> <img src="https://img.shields.io/badge/OpenAI-1A1625?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSJ3aGl0ZSIgZmlsbC1ydWxlPSJldmVub2RkIiBoZWlnaHQ9IjFlbSIgc3R5bGU9ImZsZXg6bm9uZTtsaW5lLWhlaWdodDoxIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxZW0iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHRpdGxlPk9wZW5BSTwvdGl0bGU%2BPHBhdGggZD0iTTkuMjA1IDguNjU4di0yLjI2YzAtLjE5LjA3Mi0uMzMzLjIzOC0uNDI4bDQuNTQzLTIuNjE2Yy42MTktLjM1NyAxLjM1Ni0uNTIzIDIuMTE3LS41MjMgMi44NTQgMCA0LjY2MiAyLjIxMiA0LjY2MiA0LjU2NiAwIC4xNjcgMCAuMzU3LS4wMjQuNTQ3bC00LjcxLTIuNzU5YS43OTcuNzk3IDAgMDAtLjg1NiAwbC01Ljk3IDMuNDczem0xMC42MDkgOC44VjEyLjA2YzAtLjMzMy0uMTQzLS41Ny0uNDI5LS43MzdsLTUuOTctMy40NzMgMS45NS0xLjExOGEuNDMzLjQzMyAwIDAxLjQ3NiAwbDQuNTQzIDIuNjE3YzEuMzA5Ljc2IDIuMTg5IDIuMzc4IDIuMTg5IDMuOTQ4IDAgMS44MDgtMS4wNyAzLjQ3My0yLjc2IDQuMTYzek03LjgwMiAxMi43MDNsLTEuOTUtMS4xNDJjLS4xNjctLjA5NS0uMjM5LS4yMzgtLjIzOS0uNDI4VjUuODk5YzAtMi41NDUgMS45NS00LjQ3MiA0LjU5MS00LjQ3MiAxIDAgMS45MjcuMzMzIDIuNzEyLjkyOEw4LjIzIDUuMDY3Yy0uMjg1LjE2Ni0uNDI4LjQwNC0uNDI4LjczN3Y2Ljg5OHpNMTIgMTUuMTI4bC0yLjc5NS0xLjU3di0zLjMzTDEyIDguNjU4bDIuNzk1IDEuNTd2My4zM0wxMiAxNS4xMjh6bTEuNzk2IDcuMjNjLTEgMC0xLjkyNy0uMzMyLTIuNzEyLS45MjdsNC42ODYtMi43MTJjLjI4NS0uMTY2LjQyOC0uNDA0LjQyOC0uNzM3di02Ljg5OGwxLjk3NCAxLjE0MmMuMTY3LjA5NS4yMzguMjM4LjIzOC40Mjh2NS4yMzNjMCAyLjU0NS0xLjk3NCA0LjQ3Mi00LjYxNCA0LjQ3MnptLTUuNjM3LTUuMzAzbC00LjU0NC0yLjYxN2MtMS4zMDgtLjc2MS0yLjE4OC0yLjM3OC0yLjE4OC0zLjk0OEE0LjQ4MiA0LjQ4MiAwIDAxNC4yMSA2LjMyN3Y1LjQyM2MwIC4zMzMuMTQzLjU3MS40MjguNzM4bDUuOTQ3IDMuNDQ5LTEuOTUgMS4xMThhLjQzMi40MzIgMCAwMS0uNDc2IDB6bS0uMjYyIDMuOWMtMi42ODggMC00LjY2Mi0yLjAyMS00LjY2Mi00LjUxOSAwLS4xOS4wMjQtLjM4LjA0Ny0uNTdsNC42ODYgMi43MWMuMjg2LjE2Ny41NzEuMTY3Ljg1NiAwbDUuOTctMy40NDh2Mi4yNmMwIC4xOS0uMDcuMzMzLS4yMzcuNDI4bC00LjU0MyAyLjYxNmMtLjYxOS4zNTctMS4zNTYuNTIzLTIuMTE3LjUyM3ptNS44OTkgMi44M2E1Ljk0NyA1Ljk0NyAwIDAwNS44MjctNC43NTZDMjIuMjg3IDE4LjMzOSAyNCAxNS44NCAyNCAxMy4yOTZjMC0xLjY2NS0uNzEzLTMuMjgyLTEuOTk4LTQuNDQ4LjExOS0uNS4xOS0uOTk5LjE5LTEuNDk4IDAtMy40MDEtMi43NTktNS45NDctNS45NDYtNS45NDctLjY0MiAwLTEuMjYuMDk1LTEuODguMzFBNS45NjIgNS45NjIgMCAwMDEwLjIwNSAwYTUuOTQ3IDUuOTQ3IDAgMDAtNS44MjcgNC43NTdDMS43MTMgNS40NDcgMCA3Ljk0NSAwIDEwLjQ5YzAgMS42NjYuNzEzIDMuMjgzIDEuOTk4IDQuNDQ4LS4xMTkuNS0uMTkgMS0uMTkgMS40OTkgMCAzLjQwMSAyLjc1OSA1Ljk0NiA1Ljk0NiA1Ljk0Ni42NDIgMCAxLjI2LS4wOTUgMS44OC0uMzA5YTUuOTYgNS45NiAwIDAwNC4xNjIgMS43MTN6Ij48L3BhdGg%2BPC9zdmc%2B&logoColor=white" alt="OpenAI"/> <img src="https://img.shields.io/badge/Gemini-1A1625?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/> <img src="https://img.shields.io/badge/LangChain-1A1625?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/LangGraph-1A1625?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/Hugging_Face-1A1625?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"/> <img src="https://img.shields.io/badge/Ollama-1A1625?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/>
+<img src="assets/badges/anthropic.svg" alt="Anthropic"/> <img src="assets/badges/openai.svg" alt="OpenAI"/> <img src="assets/badges/gemini.svg" alt="Gemini"/> <img src="assets/badges/langchain.svg" alt="LangChain"/> <img src="assets/badges/langgraph.svg" alt="LangGraph"/> <img src="assets/badges/hugging-face.svg" alt="Hugging Face"/> <img src="assets/badges/ollama.svg" alt="Ollama"/>
 </td></tr>
 <tr><td><b>Voice</b></td><td>
-<img src="https://img.shields.io/badge/ElevenLabs-1A1625?style=flat-square&logo=elevenlabs&logoColor=white" alt="ElevenLabs"/> <img src="https://img.shields.io/badge/Deepgram-1A1625?style=flat-square&logo=deepgram&logoColor=white" alt="Deepgram"/> <img src="https://img.shields.io/badge/LiveKit-1A1625?style=flat-square&logo=livekit&logoColor=white" alt="LiveKit"/>
+<img src="assets/badges/elevenlabs.svg" alt="ElevenLabs"/> <img src="assets/badges/deepgram.svg" alt="Deepgram"/> <img src="assets/badges/speechmatics.svg" alt="Speechmatics"/> <img src="assets/badges/livekit.svg" alt="LiveKit"/>
 </td></tr>
 <tr><td><b>Data and ML</b></td><td>
-<img src="https://img.shields.io/badge/PyTorch-1A1625?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/> <img src="https://img.shields.io/badge/scikit--learn-1A1625?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/> <img src="https://img.shields.io/badge/pandas-1A1625?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/> <img src="https://img.shields.io/badge/NumPy-1A1625?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/> <img src="https://img.shields.io/badge/Jupyter-1A1625?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/> <img src="https://img.shields.io/badge/Apache_Spark-1A1625?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark"/> <img src="https://img.shields.io/badge/Airflow-1A1625?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow"/> <img src="https://img.shields.io/badge/Snowflake-1A1625?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake"/>
+<img src="assets/badges/pytorch.svg" alt="PyTorch"/> <img src="assets/badges/scikit-learn.svg" alt="scikit-learn"/> <img src="assets/badges/pandas.svg" alt="pandas"/> <img src="assets/badges/numpy.svg" alt="NumPy"/> <img src="assets/badges/jupyter.svg" alt="Jupyter"/> <img src="assets/badges/sql-server.svg" alt="SQL Server"/> <img src="assets/badges/dbt.svg" alt="dbt"/> <img src="assets/badges/airflow.svg" alt="Airflow"/>
 </td></tr>
 <tr><td><b>Languages</b></td><td>
-<img src="https://img.shields.io/badge/Python-1A1625?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-1A1625?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Swift-1A1625?style=flat-square&logo=swift&logoColor=white" alt="Swift"/> <img src="https://img.shields.io/badge/Go-1A1625?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+<img src="assets/badges/python.svg" alt="Python"/> <img src="assets/badges/typescript.svg" alt="TypeScript"/> <img src="assets/badges/swift.svg" alt="Swift"/> <img src="assets/badges/c.svg" alt="C++"/>
 </td></tr>
 <tr><td><b>Apps and infra</b></td><td>
-<img src="https://img.shields.io/badge/Next.js-1A1625?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/React-1A1625?style=flat-square&logo=react&logoColor=white" alt="React"/> <img src="https://img.shields.io/badge/FastAPI-1A1625?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/Node.js-1A1625?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/PostgreSQL-1A1625?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Supabase-1A1625?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/> <img src="https://img.shields.io/badge/Redis-1A1625?style=flat-square&logo=redis&logoColor=white" alt="Redis"/> <img src="https://img.shields.io/badge/Docker-1A1625?style=flat-square&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/Google_Cloud-1A1625?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud"/> <img src="https://img.shields.io/badge/Vercel-1A1625?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/> <img src="https://img.shields.io/badge/Cloudflare-1A1625?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/> <img src="https://img.shields.io/badge/n8n-1A1625?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
+<img src="assets/badges/next-js.svg" alt="Next.js"/> <img src="assets/badges/react.svg" alt="React"/> <img src="assets/badges/expo.svg" alt="Expo"/> <img src="assets/badges/unreal-engine.svg" alt="Unreal Engine"/> <img src="assets/badges/fastapi.svg" alt="FastAPI"/> <img src="assets/badges/node-js.svg" alt="Node.js"/> <img src="assets/badges/postgresql.svg" alt="PostgreSQL"/> <img src="assets/badges/supabase.svg" alt="Supabase"/> <img src="assets/badges/redis.svg" alt="Redis"/> <img src="assets/badges/docker.svg" alt="Docker"/> <img src="assets/badges/aws.svg" alt="AWS"/> <img src="assets/badges/azure.svg" alt="Azure"/> <img src="assets/badges/google-cloud.svg" alt="Google Cloud"/> <img src="assets/badges/vercel.svg" alt="Vercel"/> <img src="assets/badges/cloudflare.svg" alt="Cloudflare"/>
 </td></tr>
 </table>
 
@@ -95,7 +95,7 @@ Free, private, all-in-one fitness tracker for iPhone.
 - [Building a Beacon Tour for a Historic District (Without Drilling a Single Hole)](https://www.mmintelligence.ai/blog/beacon-tour-historic-district-build)
 <!-- BLOG-POST-LIST:END -->
 
-<sub>Updated daily from [our blog](https://www.mmintelligence.ai/blog).</sub>
+<sub>Updated weekly from [our blog](https://www.mmintelligence.ai/blog).</sub>
 
 ---
 
