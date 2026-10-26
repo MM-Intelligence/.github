@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="177" viewBox="0 0 375 177" role="img" aria-label="ElevenLabs Partner">
+<rect x="1.5" y="1.5" width="372" height="174" rx="18.5" fill="#fff" stroke="#000" stroke-width="3"/>
+<g transform="translate(46 50) scale(3.2)" fill="#000"><path d="M5 0h5v24H5V0zM14 0h5v24h-5V0z"/></g>
+<text x="150" y="86" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#000">ElevenLabs</text>
+<text x="150" y="122" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="22" fill="#333">Partner</text>
+</svg>
