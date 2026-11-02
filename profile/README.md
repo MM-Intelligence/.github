@@ -88,11 +88,11 @@ Free, private, all-in-one fitness tracker for iPhone.
 ## Latest from the blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Arabic Voice Agents That Actually Work: Dialects, Code-Switching, and Voices](https://www.mmintelligence.ai/blog/arabic-voice-agents-gulf-dialect-code-switching)
+- [Two Days, Idea to Pitch: Mentoring Innovation Weekend at The Eagle Institute](https://www.mmintelligence.ai/blog/aum-innovation-weekend-trustworthy-ai-agents)
+- [Five Minutes at THE EXCHANGE: What MMI Builds in Montgomery](https://www.mmintelligence.ai/blog/five-minutes-at-the-exchange-what-mmi-builds-montgomery)
+- [Why We Build Voice on ElevenLabs, and What Being a Partner Changes](https://www.mmintelligence.ai/blog/why-we-build-voice-on-elevenlabs)
 - [Teaching Seniors to Use ChatGPT on a Phone: What Worked in Montgomery](https://www.mmintelligence.ai/blog/teaching-seniors-chatgpt-phone-montgomery)
-- [The Five Automations That Pay Back Fastest for River Region Small Businesses](https://www.mmintelligence.ai/blog/five-automations-river-region-small-business)
-- [Miss Odessa: Building a Voice AI Guide to Montgomery's History Buses](https://www.mmintelligence.ai/blog/miss-odessa-voice-ai-montgomery-history)
-- [MM Intelligence Named an OpenAI Select Partner](https://www.mmintelligence.ai/blog/mm-intelligence-openai-select-partner)
-- [Building a Beacon Tour for a Historic District (Without Drilling a Single Hole)](https://www.mmintelligence.ai/blog/beacon-tour-historic-district-build)
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Updated weekly from [our blog](https://www.mmintelligence.ai/blog).</sub>
